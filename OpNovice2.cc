@@ -82,7 +82,7 @@ int main(int argc, char** argv)
 
 #ifdef G4MULTITHREADED
 	// マルチスレッドモードの場合は、ユーザー初期化前にスレッド数を設定する
-	runManager->SetNumberOfThreads(12); //スレッド数の指定 12がいい感じ
+	runManager->SetNumberOfThreads(1); //スレッド数の指定 12がいい感じ
 #endif
 
 	// --- Detector, Physics, Action の初期化 ---

@@ -16,6 +16,15 @@
     <ClCompile Include="C:\GEANT4\geant4-v11.1.3\examples\extended\optical\OpNovice2_BU4\src\HistoManager.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\GEANT4\geant4-v11.1.3\examples\extended\optical\OpNovice2_BU4\src\MyPMTSD.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\GEANT4\geant4-v11.1.3\examples\extended\optical\OpNovice2_BU4\src\MyRunAction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\GEANT4\geant4-v11.1.3\examples\extended\optical\OpNovice2_BU4\src\PMTWaveformSimulator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\GEANT4\geant4-v11.1.3\examples\extended\optical\OpNovice2_BU4\src\PrimaryGeneratorAction.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -55,6 +64,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\GEANT4\geant4-v11.1.3\examples\extended\optical\OpNovice2_BU4\include\HistoManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GEANT4\geant4-v11.1.3\examples\extended\optical\OpNovice2_BU4\include\MyPMTSD.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GEANT4\geant4-v11.1.3\examples\extended\optical\OpNovice2_BU4\include\MyRunAction.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GEANT4\geant4-v11.1.3\examples\extended\optical\OpNovice2_BU4\include\PMTWaveformSimulator.hh">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\GEANT4\geant4-v11.1.3\examples\extended\optical\OpNovice2_BU4\include\PrimaryGeneratorAction.hh">

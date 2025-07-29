@@ -53,7 +53,7 @@
 //照射モード切替（PrimaryGeneratorAction.cc側も切り替えること）
 //#define ALPHA
 //#define BETA
-#define GAMMA
+//#define GAMMA
 ///////////////////////////////////////////////////////////////////////////////////////////
 
 DetectorConstruction::DetectorConstruction()

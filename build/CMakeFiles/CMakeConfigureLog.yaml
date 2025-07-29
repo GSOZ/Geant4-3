@@ -5,7 +5,7 @@ events:
     kind: "message-v1"
     backtrace:
       - "C:/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       The system is: Windows - 10.0.26100 - AMD64
   -
@@ -14,7 +14,7 @@ events:
       - "C:/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "C:/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
       Compiler:  
@@ -24,7 +24,7 @@ events:
       The output was:
       0
       MSBuild のバージョン 17.9.8+b34f75857 (.NET Framework)
-      2025/07/29 10:01:35 にビルドを開始しました。
+      2025/07/29 12:41:00 にビルドを開始しました。
       
       ノード 1 上のプロジェクト "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\3.29.2\\CompilerIdC\\CompilerIdC.vcxproj" (既定のターゲット)。
       PrepareForBuild:
@@ -53,7 +53,7 @@ events:
           0 個の警告
           0 エラー
       
-      経過時間 00:00:00.44
+      経過時間 00:00:00.31
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -69,7 +69,7 @@ events:
       - "C:/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "C:/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
       Compiler:  
@@ -79,7 +79,7 @@ events:
       The output was:
       0
       MSBuild のバージョン 17.9.8+b34f75857 (.NET Framework)
-      2025/07/29 10:01:36 にビルドを開始しました。
+      2025/07/29 12:41:00 にビルドを開始しました。
       
       ノード 1 上のプロジェクト "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\3.29.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (既定のターゲット)。
       PrepareForBuild:
@@ -108,7 +108,7 @@ events:
           0 個の警告
           0 エラー
       
-      経過時間 00:00:00.33
+      経過時間 00:00:00.31
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -123,12 +123,12 @@ events:
     backtrace:
       - "C:/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
       - "C:/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-zezplg"
-      binary: "C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-zezplg"
+      source: "C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-0y60w9"
+      binary: "C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-0y60w9"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -137,40 +137,40 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-zezplg'
+        Change Dir: 'C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-0y60w9'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_36f70.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a7855.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild のバージョン 17.9.8+b34f75857 (.NET Framework)
-        2025/07/29 10:01:37 にビルドを開始しました。
+        2025/07/29 12:41:01 にビルドを開始しました。
         
-        ノード 1 上のプロジェクト "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zezplg\\cmTC_36f70.vcxproj" (既定のターゲット)。
+        ノード 1 上のプロジェクト "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0y60w9\\cmTC_a7855.vcxproj" (既定のターゲット)。
         PrepareForBuild:
-          ディレクトリ "cmTC_36f70.dir\\Debug\\" を作成しています。
+          ディレクトリ "cmTC_a7855.dir\\Debug\\" を作成しています。
           構造化出力が有効になっています。コンパイラ診断の書式設定にはエラー階層が反映されます。詳細については、https://aka.ms/cpp/structured-output を参照してください。
-          ディレクトリ "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zezplg\\Debug\\" を作成しています。
-          ディレクトリ "cmTC_36f70.dir\\Debug\\cmTC_36f70.tlog\\" を作成しています。
+          ディレクトリ "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0y60w9\\Debug\\" を作成しています。
+          ディレクトリ "cmTC_a7855.dir\\Debug\\cmTC_a7855.tlog\\" を作成しています。
         InitializeBuildStatus:
-          "AlwaysCreate" が指定されたため "cmTC_36f70.dir\\Debug\\cmTC_36f70.tlog\\unsuccessfulbuild" を作成しています。
-          "cmTC_36f70.dir\\Debug\\cmTC_36f70.tlog\\unsuccessfulbuild" のタッチ タスクを実行しています。
+          "AlwaysCreate" が指定されたため "cmTC_a7855.dir\\Debug\\cmTC_a7855.tlog\\unsuccessfulbuild" を作成しています。
+          "cmTC_a7855.dir\\Debug\\cmTC_a7855.tlog\\unsuccessfulbuild" のタッチ タスクを実行しています。
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_36f70.dir\\Debug\\\\" /Fd"cmTC_36f70.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\cmake-3.29.2-windows-x86_64\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a7855.dir\\Debug\\\\" /Fd"cmTC_a7855.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\cmake-3.29.2-windows-x86_64\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
           Microsoft(R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_36f70.dir\\Debug\\\\" /Fd"cmTC_36f70.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\cmake-3.29.2-windows-x86_64\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a7855.dir\\Debug\\\\" /Fd"cmTC_a7855.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\cmake-3.29.2-windows-x86_64\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zezplg\\Debug\\cmTC_36f70.exe" /INCREMENTAL /ILK:"cmTC_36f70.dir\\Debug\\cmTC_36f70.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-zezplg/Debug/cmTC_36f70.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-zezplg/Debug/cmTC_36f70.lib" /MACHINE:X64  /machine:x64 cmTC_36f70.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_36f70.vcxproj -> C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zezplg\\Debug\\cmTC_36f70.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0y60w9\\Debug\\cmTC_a7855.exe" /INCREMENTAL /ILK:"cmTC_a7855.dir\\Debug\\cmTC_a7855.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-0y60w9/Debug/cmTC_a7855.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-0y60w9/Debug/cmTC_a7855.lib" /MACHINE:X64  /machine:x64 cmTC_a7855.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_a7855.vcxproj -> C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0y60w9\\Debug\\cmTC_a7855.exe
         FinalizeBuildStatus:
-          ファイル "cmTC_36f70.dir\\Debug\\cmTC_36f70.tlog\\unsuccessfulbuild" を削除しています。
-          "cmTC_36f70.dir\\Debug\\cmTC_36f70.tlog\\cmTC_36f70.lastbuildstate" のタッチ タスクを実行しています。
-        プロジェクト "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zezplg\\cmTC_36f70.vcxproj" (既定のターゲット) のビルドが完了しました。
+          ファイル "cmTC_a7855.dir\\Debug\\cmTC_a7855.tlog\\unsuccessfulbuild" を削除しています。
+          "cmTC_a7855.dir\\Debug\\cmTC_a7855.tlog\\cmTC_a7855.lastbuildstate" のタッチ タスクを実行しています。
+        プロジェクト "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0y60w9\\cmTC_a7855.vcxproj" (既定のターゲット) のビルドが完了しました。
         
         ビルドに成功しました。
             0 個の警告
             0 エラー
         
-        経過時間 00:00:00.35
+        経過時間 00:00:00.31
         
       exitCode: 0
   -
@@ -178,7 +178,7 @@ events:
     backtrace:
       - "C:/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
       - "C:/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
@@ -196,7 +196,7 @@ events:
       - "C:/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
       - "C:/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
       - "C:/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe" "-v"
       Microsoft (R) Incremental Linker Version 14.39.33523.0
@@ -206,12 +206,12 @@ events:
     backtrace:
       - "C:/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
       - "C:/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-5vl59n"
-      binary: "C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-5vl59n"
+      source: "C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-qgyk6h"
+      binary: "C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-qgyk6h"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -220,34 +220,34 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-5vl59n'
+        Change Dir: 'C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-qgyk6h'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5af5b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_dec46.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild のバージョン 17.9.8+b34f75857 (.NET Framework)
-        2025/07/29 10:01:37 にビルドを開始しました。
+        2025/07/29 12:41:01 にビルドを開始しました。
         
-        ノード 1 上のプロジェクト "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5vl59n\\cmTC_5af5b.vcxproj" (既定のターゲット)。
+        ノード 1 上のプロジェクト "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qgyk6h\\cmTC_dec46.vcxproj" (既定のターゲット)。
         PrepareForBuild:
-          ディレクトリ "cmTC_5af5b.dir\\Debug\\" を作成しています。
+          ディレクトリ "cmTC_dec46.dir\\Debug\\" を作成しています。
           構造化出力が有効になっています。コンパイラ診断の書式設定にはエラー階層が反映されます。詳細については、https://aka.ms/cpp/structured-output を参照してください。
-          ディレクトリ "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5vl59n\\Debug\\" を作成しています。
-          ディレクトリ "cmTC_5af5b.dir\\Debug\\cmTC_5af5b.tlog\\" を作成しています。
+          ディレクトリ "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qgyk6h\\Debug\\" を作成しています。
+          ディレクトリ "cmTC_dec46.dir\\Debug\\cmTC_dec46.tlog\\" を作成しています。
         InitializeBuildStatus:
-          "AlwaysCreate" が指定されたため "cmTC_5af5b.dir\\Debug\\cmTC_5af5b.tlog\\unsuccessfulbuild" を作成しています。
-          "cmTC_5af5b.dir\\Debug\\cmTC_5af5b.tlog\\unsuccessfulbuild" のタッチ タスクを実行しています。
+          "AlwaysCreate" が指定されたため "cmTC_dec46.dir\\Debug\\cmTC_dec46.tlog\\unsuccessfulbuild" を作成しています。
+          "cmTC_dec46.dir\\Debug\\cmTC_dec46.tlog\\unsuccessfulbuild" のタッチ タスクを実行しています。
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5af5b.dir\\Debug\\\\" /Fd"cmTC_5af5b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\cmake-3.29.2-windows-x86_64\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dec46.dir\\Debug\\\\" /Fd"cmTC_dec46.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\cmake-3.29.2-windows-x86_64\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft(R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5af5b.dir\\Debug\\\\" /Fd"cmTC_5af5b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\cmake-3.29.2-windows-x86_64\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dec46.dir\\Debug\\\\" /Fd"cmTC_dec46.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\cmake-3.29.2-windows-x86_64\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5vl59n\\Debug\\cmTC_5af5b.exe" /INCREMENTAL /ILK:"cmTC_5af5b.dir\\Debug\\cmTC_5af5b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-5vl59n/Debug/cmTC_5af5b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-5vl59n/Debug/cmTC_5af5b.lib" /MACHINE:X64  /machine:x64 cmTC_5af5b.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_5af5b.vcxproj -> C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5vl59n\\Debug\\cmTC_5af5b.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qgyk6h\\Debug\\cmTC_dec46.exe" /INCREMENTAL /ILK:"cmTC_dec46.dir\\Debug\\cmTC_dec46.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-qgyk6h/Debug/cmTC_dec46.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-qgyk6h/Debug/cmTC_dec46.lib" /MACHINE:X64  /machine:x64 cmTC_dec46.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_dec46.vcxproj -> C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qgyk6h\\Debug\\cmTC_dec46.exe
         FinalizeBuildStatus:
-          ファイル "cmTC_5af5b.dir\\Debug\\cmTC_5af5b.tlog\\unsuccessfulbuild" を削除しています。
-          "cmTC_5af5b.dir\\Debug\\cmTC_5af5b.tlog\\cmTC_5af5b.lastbuildstate" のタッチ タスクを実行しています。
-        プロジェクト "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5vl59n\\cmTC_5af5b.vcxproj" (既定のターゲット) のビルドが完了しました。
+          ファイル "cmTC_dec46.dir\\Debug\\cmTC_dec46.tlog\\unsuccessfulbuild" を削除しています。
+          "cmTC_dec46.dir\\Debug\\cmTC_dec46.tlog\\cmTC_dec46.lastbuildstate" のタッチ タスクを実行しています。
+        プロジェクト "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qgyk6h\\cmTC_dec46.vcxproj" (既定のターゲット) のビルドが完了しました。
         
         ビルドに成功しました。
             0 個の警告
@@ -261,7 +261,7 @@ events:
     backtrace:
       - "C:/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
       - "C:/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
@@ -279,7 +279,7 @@ events:
       - "C:/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
       - "C:/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
       - "C:/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe" "-v"
       Microsoft (R) Incremental Linker Version 14.39.33523.0
@@ -295,12 +295,12 @@ events:
       - "C:/GEANT4/geant4-v11.1.3_build/source/externals/ptl/PTLConfig.cmake:56 (find_dependency)"
       - "C:/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
       - "C:/GEANT4/geant4-v11.1.3_build/Geant4Config.cmake:291 (find_dependency)"
-      - "CMakeLists.txt:13 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-9pnte1"
-      binary: "C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-9pnte1"
+      source: "C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-4zuymp"
+      binary: "C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-4zuymp"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -310,40 +310,40 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-9pnte1'
+        Change Dir: 'C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-4zuymp'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_780ea.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b4daf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild のバージョン 17.9.8+b34f75857 (.NET Framework)
-        2025/07/29 10:01:38 にビルドを開始しました。
+        2025/07/29 12:41:02 にビルドを開始しました。
         
-        ノード 1 上のプロジェクト "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9pnte1\\cmTC_780ea.vcxproj" (既定のターゲット)。
+        ノード 1 上のプロジェクト "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4zuymp\\cmTC_b4daf.vcxproj" (既定のターゲット)。
         PrepareForBuild:
-          ディレクトリ "cmTC_780ea.dir\\Debug\\" を作成しています。
+          ディレクトリ "cmTC_b4daf.dir\\Debug\\" を作成しています。
           構造化出力が有効になっています。コンパイラ診断の書式設定にはエラー階層が反映されます。詳細については、https://aka.ms/cpp/structured-output を参照してください。
-          ディレクトリ "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9pnte1\\Debug\\" を作成しています。
-          ディレクトリ "cmTC_780ea.dir\\Debug\\cmTC_780ea.tlog\\" を作成しています。
+          ディレクトリ "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4zuymp\\Debug\\" を作成しています。
+          ディレクトリ "cmTC_b4daf.dir\\Debug\\cmTC_b4daf.tlog\\" を作成しています。
         InitializeBuildStatus:
-          "AlwaysCreate" が指定されたため "cmTC_780ea.dir\\Debug\\cmTC_780ea.tlog\\unsuccessfulbuild" を作成しています。
-          "cmTC_780ea.dir\\Debug\\cmTC_780ea.tlog\\unsuccessfulbuild" のタッチ タスクを実行しています。
+          "AlwaysCreate" が指定されたため "cmTC_b4daf.dir\\Debug\\cmTC_b4daf.tlog\\unsuccessfulbuild" を作成しています。
+          "cmTC_b4daf.dir\\Debug\\cmTC_b4daf.tlog\\unsuccessfulbuild" のタッチ タスクを実行しています。
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_780ea.dir\\Debug\\\\" /Fd"cmTC_780ea.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9pnte1\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b4daf.dir\\Debug\\\\" /Fd"cmTC_b4daf.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4zuymp\\src.c"
           Microsoft(R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_780ea.dir\\Debug\\\\" /Fd"cmTC_780ea.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9pnte1\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b4daf.dir\\Debug\\\\" /Fd"cmTC_b4daf.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4zuymp\\src.c"
           src.c
-        C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9pnte1\\src.c(1,10): error C1083: include ファイルを開けません。'pthread.h':No such file or directory [C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9pnte1\\cmTC_780ea.vcxproj]
-        プロジェクト "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9pnte1\\cmTC_780ea.vcxproj" (既定のターゲット) のビルドが終了しました -- 失敗。
+        C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4zuymp\\src.c(1,10): error C1083: include ファイルを開けません。'pthread.h':No such file or directory [C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4zuymp\\cmTC_b4daf.vcxproj]
+        プロジェクト "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4zuymp\\cmTC_b4daf.vcxproj" (既定のターゲット) のビルドが終了しました -- 失敗。
         
         ビルドに失敗しました。
         
-        "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9pnte1\\cmTC_780ea.vcxproj" (既定のターゲット) (1) ->
+        "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4zuymp\\cmTC_b4daf.vcxproj" (既定のターゲット) (1) ->
         (ClCompile ターゲット) -> 
-          C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9pnte1\\src.c(1,10): error C1083: include ファイルを開けません。'pthread.h':No such file or directory [C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9pnte1\\cmTC_780ea.vcxproj]
+          C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4zuymp\\src.c(1,10): error C1083: include ファイルを開けません。'pthread.h':No such file or directory [C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4zuymp\\cmTC_b4daf.vcxproj]
         
             0 個の警告
             1 エラー
         
-        経過時間 00:00:00.25
+        経過時間 00:00:00.23
         
       exitCode: 1
   -
@@ -356,12 +356,12 @@ events:
       - "C:/GEANT4/geant4-v11.1.3_build/source/externals/ptl/PTLConfig.cmake:56 (find_dependency)"
       - "C:/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
       - "C:/GEANT4/geant4-v11.1.3_build/Geant4Config.cmake:291 (find_dependency)"
-      - "CMakeLists.txt:13 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-wtxjom"
-      binary: "C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-wtxjom"
+      source: "C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-xybvwx"
+      binary: "C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-xybvwx"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -371,37 +371,37 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-wtxjom'
+        Change Dir: 'C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-xybvwx'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_72474.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2e766.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild のバージョン 17.9.8+b34f75857 (.NET Framework)
-        2025/07/29 10:01:38 にビルドを開始しました。
+        2025/07/29 12:41:02 にビルドを開始しました。
         
-        ノード 1 上のプロジェクト "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wtxjom\\cmTC_72474.vcxproj" (既定のターゲット)。
+        ノード 1 上のプロジェクト "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xybvwx\\cmTC_2e766.vcxproj" (既定のターゲット)。
         PrepareForBuild:
-          ディレクトリ "cmTC_72474.dir\\Debug\\" を作成しています。
+          ディレクトリ "cmTC_2e766.dir\\Debug\\" を作成しています。
           構造化出力が有効になっています。コンパイラ診断の書式設定にはエラー階層が反映されます。詳細については、https://aka.ms/cpp/structured-output を参照してください。
-          ディレクトリ "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wtxjom\\Debug\\" を作成しています。
-          ディレクトリ "cmTC_72474.dir\\Debug\\cmTC_72474.tlog\\" を作成しています。
+          ディレクトリ "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xybvwx\\Debug\\" を作成しています。
+          ディレクトリ "cmTC_2e766.dir\\Debug\\cmTC_2e766.tlog\\" を作成しています。
         InitializeBuildStatus:
-          "AlwaysCreate" が指定されたため "cmTC_72474.dir\\Debug\\cmTC_72474.tlog\\unsuccessfulbuild" を作成しています。
-          "cmTC_72474.dir\\Debug\\cmTC_72474.tlog\\unsuccessfulbuild" のタッチ タスクを実行しています。
+          "AlwaysCreate" が指定されたため "cmTC_2e766.dir\\Debug\\cmTC_2e766.tlog\\unsuccessfulbuild" を作成しています。
+          "cmTC_2e766.dir\\Debug\\cmTC_2e766.tlog\\unsuccessfulbuild" のタッチ タスクを実行しています。
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_72474.dir\\Debug\\\\" /Fd"cmTC_72474.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wtxjom\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2e766.dir\\Debug\\\\" /Fd"cmTC_2e766.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xybvwx\\CheckFunctionExists.c"
           Microsoft(R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_72474.dir\\Debug\\\\" /Fd"cmTC_72474.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wtxjom\\CheckFunctionExists.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2e766.dir\\Debug\\\\" /Fd"cmTC_2e766.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xybvwx\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wtxjom\\Debug\\cmTC_72474.exe" /INCREMENTAL /ILK:"cmTC_72474.dir\\Debug\\cmTC_72474.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-wtxjom/Debug/cmTC_72474.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-wtxjom/Debug/cmTC_72474.lib" /MACHINE:X64  /machine:x64 cmTC_72474.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: ファイル 'pthreads.lib' を開くことができません。 [C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wtxjom\\cmTC_72474.vcxproj]
-        プロジェクト "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wtxjom\\cmTC_72474.vcxproj" (既定のターゲット) のビルドが終了しました -- 失敗。
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xybvwx\\Debug\\cmTC_2e766.exe" /INCREMENTAL /ILK:"cmTC_2e766.dir\\Debug\\cmTC_2e766.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-xybvwx/Debug/cmTC_2e766.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-xybvwx/Debug/cmTC_2e766.lib" /MACHINE:X64  /machine:x64 cmTC_2e766.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: ファイル 'pthreads.lib' を開くことができません。 [C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xybvwx\\cmTC_2e766.vcxproj]
+        プロジェクト "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xybvwx\\cmTC_2e766.vcxproj" (既定のターゲット) のビルドが終了しました -- 失敗。
         
         ビルドに失敗しました。
         
-        "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wtxjom\\cmTC_72474.vcxproj" (既定のターゲット) (1) ->
+        "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xybvwx\\cmTC_2e766.vcxproj" (既定のターゲット) (1) ->
         (Link ターゲット) -> 
-          LINK : fatal error LNK1104: ファイル 'pthreads.lib' を開くことができません。 [C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wtxjom\\cmTC_72474.vcxproj]
+          LINK : fatal error LNK1104: ファイル 'pthreads.lib' を開くことができません。 [C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xybvwx\\cmTC_2e766.vcxproj]
         
             0 個の警告
             1 エラー
@@ -419,12 +419,12 @@ events:
       - "C:/GEANT4/geant4-v11.1.3_build/source/externals/ptl/PTLConfig.cmake:56 (find_dependency)"
       - "C:/cmake-3.29.2-windows-x86_64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
       - "C:/GEANT4/geant4-v11.1.3_build/Geant4Config.cmake:291 (find_dependency)"
-      - "CMakeLists.txt:13 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-pyiff5"
-      binary: "C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-pyiff5"
+      source: "C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-ersag3"
+      binary: "C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-ersag3"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -434,42 +434,42 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-pyiff5'
+        Change Dir: 'C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-ersag3'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_46666.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_fe161.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild のバージョン 17.9.8+b34f75857 (.NET Framework)
-        2025/07/29 10:01:39 にビルドを開始しました。
+        2025/07/29 12:41:02 にビルドを開始しました。
         
-        ノード 1 上のプロジェクト "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pyiff5\\cmTC_46666.vcxproj" (既定のターゲット)。
+        ノード 1 上のプロジェクト "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ersag3\\cmTC_fe161.vcxproj" (既定のターゲット)。
         PrepareForBuild:
-          ディレクトリ "cmTC_46666.dir\\Debug\\" を作成しています。
+          ディレクトリ "cmTC_fe161.dir\\Debug\\" を作成しています。
           構造化出力が有効になっています。コンパイラ診断の書式設定にはエラー階層が反映されます。詳細については、https://aka.ms/cpp/structured-output を参照してください。
-          ディレクトリ "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pyiff5\\Debug\\" を作成しています。
-          ディレクトリ "cmTC_46666.dir\\Debug\\cmTC_46666.tlog\\" を作成しています。
+          ディレクトリ "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ersag3\\Debug\\" を作成しています。
+          ディレクトリ "cmTC_fe161.dir\\Debug\\cmTC_fe161.tlog\\" を作成しています。
         InitializeBuildStatus:
-          "AlwaysCreate" が指定されたため "cmTC_46666.dir\\Debug\\cmTC_46666.tlog\\unsuccessfulbuild" を作成しています。
-          "cmTC_46666.dir\\Debug\\cmTC_46666.tlog\\unsuccessfulbuild" のタッチ タスクを実行しています。
+          "AlwaysCreate" が指定されたため "cmTC_fe161.dir\\Debug\\cmTC_fe161.tlog\\unsuccessfulbuild" を作成しています。
+          "cmTC_fe161.dir\\Debug\\cmTC_fe161.tlog\\unsuccessfulbuild" のタッチ タスクを実行しています。
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_46666.dir\\Debug\\\\" /Fd"cmTC_46666.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pyiff5\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fe161.dir\\Debug\\\\" /Fd"cmTC_fe161.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ersag3\\CheckFunctionExists.c"
           Microsoft(R) C/C++ Optimizing Compiler Version 19.39.33523 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_46666.dir\\Debug\\\\" /Fd"cmTC_46666.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pyiff5\\CheckFunctionExists.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fe161.dir\\Debug\\\\" /Fd"cmTC_fe161.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ersag3\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pyiff5\\Debug\\cmTC_46666.exe" /INCREMENTAL /ILK:"cmTC_46666.dir\\Debug\\cmTC_46666.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-pyiff5/Debug/cmTC_46666.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-pyiff5/Debug/cmTC_46666.lib" /MACHINE:X64  /machine:x64 cmTC_46666.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: ファイル 'pthread.lib' を開くことができません。 [C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pyiff5\\cmTC_46666.vcxproj]
-        プロジェクト "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pyiff5\\cmTC_46666.vcxproj" (既定のターゲット) のビルドが終了しました -- 失敗。
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ersag3\\Debug\\cmTC_fe161.exe" /INCREMENTAL /ILK:"cmTC_fe161.dir\\Debug\\cmTC_fe161.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-ersag3/Debug/cmTC_fe161.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/CMakeScratch/TryCompile-ersag3/Debug/cmTC_fe161.lib" /MACHINE:X64  /machine:x64 cmTC_fe161.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: ファイル 'pthread.lib' を開くことができません。 [C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ersag3\\cmTC_fe161.vcxproj]
+        プロジェクト "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ersag3\\cmTC_fe161.vcxproj" (既定のターゲット) のビルドが終了しました -- 失敗。
         
         ビルドに失敗しました。
         
-        "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pyiff5\\cmTC_46666.vcxproj" (既定のターゲット) (1) ->
+        "C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ersag3\\cmTC_fe161.vcxproj" (既定のターゲット) (1) ->
         (Link ターゲット) -> 
-          LINK : fatal error LNK1104: ファイル 'pthread.lib' を開くことができません。 [C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pyiff5\\cmTC_46666.vcxproj]
+          LINK : fatal error LNK1104: ファイル 'pthread.lib' を開くことができません。 [C:\\GEANT4\\geant4-v11.1.3\\examples\\extended\\optical\\OpNovice2_BU4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ersag3\\cmTC_fe161.vcxproj]
         
             0 個の警告
             1 エラー
         
-        経過時間 00:00:00.27
+        経過時間 00:00:00.25
         
       exitCode: 1
 ...
