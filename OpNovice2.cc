@@ -43,7 +43,7 @@
 #include "G4VisExecutive.hh"
 
 // モード選択
-//#define Interactive  // UIを使いたいとき（SHIFTED_POSITION_MODEもOFFにする必要あり）
+#define Interactive  // UIを使いたいとき（SHIFTED_POSITION_MODEもOFFにする必要あり）
 //#define SHIFTED_POSITION_MODE  // X方向に１mmずつずらした照射をしたいとき
 
 
