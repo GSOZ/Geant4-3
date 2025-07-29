@@ -47,13 +47,13 @@
 
 ///////////////////////////////////////////////////////////////////////////////////////////
 //モード切替え
-#define SCINTILLATOR
-//#define TEST_IRRADIATION
+//#define SCINTILLATOR
+#define TEST_IRRADIATION
 
 //照射モード切替（PrimaryGeneratorAction.cc側も切り替えること）
 //#define ALPHA
 //#define BETA
-//#define GAMMA
+#define GAMMA
 ///////////////////////////////////////////////////////////////////////////////////////////
 
 DetectorConstruction::DetectorConstruction()
@@ -234,7 +234,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
 	fTank3_LV = new G4LogicalVolume(tank_box3, fTankMaterial3, "Tank_Plastic");
 	fTank3 = new G4PVPlacement(0, G4ThreeVector(0, 0, -height_Plastic * mm), fTank3_LV, "Tank_Plastic", fWorld_LV, false, 0);
 
-
+	/*
 	//GSOケース
 	auto fTankGSO16in = new G4Box("GSOInBox", fTank4_x, fTank4_y, fTank4_z); // GSO本体
 
@@ -332,7 +332,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
 	GreasePETPla = new G4PVPlacement(0, G4ThreeVector(0, 0, -height_Gre_PETPla * mm), Grease_LV, "Grease_PlaGSO", fWorld_LV, false, 0);
 	GreasePlaGSO = new G4PVPlacement(0, G4ThreeVector(0, 0, -height_Gre_PlaGSO * mm), Grease_LV2, "Grease_PlaGSO", fWorld_LV, false, 0);
 	GreaseGSOGuide = new G4PVPlacement(0, G4ThreeVector(0, 0, -height_Gre_GSOGuide * mm), Grease_LV, "Grease_GSOGuide", fWorld_LV, false, 0);
-
+	*/
 
 	// Guide
 	G4double bottomX = 5.00 * mm;

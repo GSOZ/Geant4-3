@@ -1,11 +1,19 @@
 # CMake generation dependency list for this directory.
 C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/CMakeLists.txt
+C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/OpNovice2.mac
+C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/OpNovice2.out
 C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/boundary.mac
 C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/3.29.2/CMakeCCompiler.cmake
 C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/3.29.2/CMakeCXXCompiler.cmake
 C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/3.29.2/CMakeRCCompiler.cmake
 C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/build/CMakeFiles/3.29.2/CMakeSystem.cmake
+C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/coated.mac
+C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/complexRindex.mac
+C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/electron.mac
+C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/fresnel.mac
+C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/scint_by_particle.mac
 C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/vis.mac
+C:/GEANT4/geant4-v11.1.3/examples/extended/optical/OpNovice2_BU4/wls.mac
 C:/GEANT4/geant4-v11.1.3_build/Geant4Config.cmake
 C:/GEANT4/geant4-v11.1.3_build/Geant4ConfigVersion.cmake
 C:/GEANT4/geant4-v11.1.3_build/Geant4LibraryDepends.cmake
